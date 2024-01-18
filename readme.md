@@ -1,0 +1,9 @@
+map
+filter
+find
+some
+every
+includes
+reduce
+partition
+zip
