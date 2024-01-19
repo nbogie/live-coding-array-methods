@@ -28,7 +28,7 @@
  */
 
 /** @type {Hero[]} */
-const heroes = [
+const dotaHeroes = [
     {
         Name: "npc_dota_hero_antimage",
         Talents: {
@@ -2761,3 +2761,5 @@ const heroes = [
         MovementTurnRate: 0.5,
     },
 ];
+
+export { dotaHeroes };

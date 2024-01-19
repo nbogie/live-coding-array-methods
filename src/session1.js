@@ -1,6 +1,7 @@
 import { hiragana } from "../data/hiragana.js";
 import { simpsonsEpisodes } from "../data/simpsons.js";
 import { elementsData } from "../data/elements.js";
+import { dotaHeroes } from "../data/dotaHeroes.js";
 
 function isSeason4(episodeObj) {
     return episodeObj.season === 4;
