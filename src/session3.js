@@ -29,6 +29,7 @@ function lessThan50(n) {
     return n < 50;
 }
 const myNumbers = [10, 7, 20, 4, 23, 18, 2, 35, 45, 3, 45];
+
 function lessThan4(n) {
     return n < 4;
 }
@@ -36,7 +37,7 @@ function lessThan4(n) {
 if (myNumbers.some(lessThan4)) {
     console.log("CONGRATS SOME NUMS PASSED THE TEST");
 } else {
-    console.log("💩");
+    console.log("💩 no - no numbers passed the test");
 }
 
 //callback function: a function F which you pass to another function G: so that G can call F.
