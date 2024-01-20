@@ -4,7 +4,7 @@
  * @property {Talents} Talents
  * @property {number} AttackRate
  * @property {number} AttackRange
- * @property {number=} ProjectileSpeed
+ * @property {number} [ProjectileSpeed]
  * @property {number} AttributeBaseStrength
  * @property {number} AttributeStrengthGain
  * @property {number} AttributeBaseIntelligence
@@ -17,14 +17,14 @@
 
 /**
  * @typedef {Object} Talents
- * @property {string=} Talent_1
- * @property {string=} Talent_2
- * @property {string=} Talent_3
- * @property {string=} Talent_4
- * @property {string=} Talent_5
- * @property {string=} Talent_6
- * @property {string=} Talent_7
- * @property {string=} Talent_8
+ * @property {string} [Talent_1]
+ * @property {string} [Talent_2]
+ * @property {string} [Talent_3]
+ * @property {string} [Talent_4]
+ * @property {string} [Talent_5]
+ * @property {string} [Talent_6]
+ * @property {string} [Talent_7]
+ * @property {string} [Talent_8]
  */
 
 /** @type {Hero[]} */
